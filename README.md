@@ -1,4 +1,7 @@
 # Desafio Angular Pokemon - Gotta Fetch Them All!
+ ### Desafio 3° proposto pelo colega [Rafael](https://github.com/rpaivabr)do grupo de estudos de frontend.
+
+
 
 Usando como referência nossos estudos anteriores, neste projeto vamos criar uma aplicação que nos permite selecionar um time de 6 pokemons, fazendo as operações de CRUD (create, read, update e delete). Para trazer a lista de pokemons existentes, vamos utilizar a [PokeAPI](https://pokeapi.co)
   
