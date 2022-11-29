@@ -1,0 +1,13 @@
+.card {
+  width: 200px;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  
+}

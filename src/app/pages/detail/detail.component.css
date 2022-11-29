@@ -1,0 +1,18 @@
+.container {
+  flex-direction: column;
+}
+
+.field {
+  width: 230px;
+}
+
+.message {
+  color: white;
+  font-size: 12px;
+}
+
+/* .mat-option{
+  background-color: white ;
+} */
+
+

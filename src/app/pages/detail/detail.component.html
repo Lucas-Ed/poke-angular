@@ -1,4 +1,29 @@
-<p>detail works!</p>
-idToEdit: {{ idToEdit }}
-<br>
-<a routerLink="/list">Back</a>
+<div class="container">
+  <mat-form-field appearance="outline" class="field">
+    <mat-label color="white">Pokémon Name</mat-label>
+
+    <mat-select
+    
+    [formControl]="pokemonControl"
+     name="pokemon"
+     >
+
+      <mat-option  *ngFor="let item of pokemonList" [value]="item.name">
+        {{item.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <app-card [pokemon]="pokemonSelected"></app-card>
+
+  <button
+    mat-raised-button
+    color="basic"
+    [disabled]="!pokemonSelected || !isAllowedType"
+    (click)="save()"
+  >
+    Select
+  </button>
+  <span class="message" *ngIf="!pokemonSelected">Nenhum pokémon selecionado ainda</span>
+  <span class="message" *ngIf="!isAllowedType">Você já tem um pokémon deste tipo</span>
+</div>

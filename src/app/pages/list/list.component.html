@@ -1,4 +1,19 @@
-<p>list works!</p>
-<a routerLink="/detail/new">New Pokemon</a>
-<br>
-<a href="#" (click)="goToDetail($event, 1)">Edit Pokemon 1</a>
+<div class="container" *ngIf="(myPokemons$ | async) as myPokemons">
+
+  <app-card
+    *ngFor="let pokemon of myPokemons"
+    [pokemon]="pokemon"
+    [actions]="true"
+    (edit)="navigateTo($event)"
+    (delete)="deletePokemon($event)"
+  ></app-card>
+
+  <button
+    *ngIf="myPokemons.length < 6"
+    mat-raised-button
+    color="basic"
+    routerLink="/detail/select"
+  >
+    Select new
+  </button>
+</div>

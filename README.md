@@ -3,7 +3,7 @@
 
 
 
-Usando como referência nossos estudos anteriores, neste projeto vamos criar uma aplicação que nos permite selecionar um time de 6 pokemons, fazendo as operações de CRUD (create, read, update e delete). Para trazer a lista de pokemons existentes, vamos utilizar a [PokeAPI](https://pokeapi.co)
+Usando como referência nossos estudos anteriores, neste projeto foi criado uma aplicação que nos permite selecionar um time de 6 pokemons, fazendo as operações de CRUD (create, read, update e delete). Para trazer a lista de pokemons existentes, vamos utilizar a [PokeAPI](https://pokeapi.co)
   
 Para isso, temos a dependência de desenvolvimento já instalada (json-server), e para rodar, basta o comando `npm run api`, e a api estará funcionando no endereço http://localhost:3333):
 
