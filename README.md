@@ -1,5 +1,5 @@
 # Desafio Angular Pokemon - Gotta Fetch Them All!
- ### Desafio 3° proposto pelo colega [Rafael](https://github.com/rpaivabr)do grupo de estudos de frontend.
+ ### Desafio 3° proposto pelo colega [Rafael](https://github.com/rpaivabr) do grupo de estudos de frontend.
 
 
 
