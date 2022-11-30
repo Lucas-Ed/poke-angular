@@ -1,3 +1,41 @@
 {
-  "pokemons": []
+  "pokemons": [
+    {
+      "id": 3,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "order": 44,
+      "name": "gloom"
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "types": [
+        "electric"
+      ],
+      "order": 25,
+      "name": "pikachu",
+      "id": 4
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+      "types": [
+        "water"
+      ],
+      "order": 7,
+      "name": "squirtle",
+      "id": 5
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+      "types": [
+        "fairy"
+      ],
+      "order": 36,
+      "name": "clefable",
+      "id": 6
+    }
+  ]
 }
